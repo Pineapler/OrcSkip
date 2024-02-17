@@ -11,7 +11,7 @@ public class Plugin : BaseUnityPlugin {
     // GAME CONFIGURATION
     public const string PluginGuid = "com.pineapler.orcskip";
     public const string PluginName = "OrcSkip";
-    public const string PluginVersion = "0.0.1";
+    public const string PluginVersion = "1.0.0";
     // ==========================================================
 
     public static new Config Config { get; private set; }
