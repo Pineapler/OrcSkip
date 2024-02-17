@@ -3,14 +3,14 @@ using System.Reflection;
 using BepInEx;
 using HarmonyLib;
 
-namespace MY_MOD_NAME;
+namespace OrcSkip;
 
 [BepInPlugin(PluginGuid, PluginName, PluginVersion)]
 public class Plugin : BaseUnityPlugin {
     // ==========================================================
     // GAME CONFIGURATION
-    public const string PluginGuid = "com.MY_LOWERCASE_USERNAME.MY_LOWERCASE_MOD_NAME";
-    public const string PluginName = "MY_MOD_NAME";
+    public const string PluginGuid = "com.pineapler.orcskip";
+    public const string PluginName = "OrcSkip";
     public const string PluginVersion = "0.0.1";
     // ==========================================================
 
